@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Funny story</string>
+    <string name="universe">Universe</string>
+    <string name="story">STORY</string>
+    <string name="Создать">Создать историю</string>
+    <string name="New_story">Новая история</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="newStory">Новая история</string>
+    <string name="first">Введите существительное</string>
+    <string name="firstView">Например: читаю про к̲о̲с̲м̲о̲с̲</string>
+</resources>
