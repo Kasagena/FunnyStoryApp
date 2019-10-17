@@ -10,4 +10,16 @@
     <string name="newStory">Новая история</string>
     <string name="first">Введите существительное</string>
     <string name="firstView">Например: читаю про к̲о̲с̲м̲о̲с̲</string>
+    <string name="firstText">Введите существительное</string>
+    <string name="secondText">Введите глагол</string>
+    <string name="secondView">Например: я часто п̲л̲а̲ч̲у̲</string>
+    <string name="thirdView">Например: на картины п̲о̲д̲р̲у̲г̲и̲</string>
+    <string name="fourthView">Например: чувство р̲а̲д̲о̲с̲т̲и̲</string>
+    <string name="fifthView">Например: иду на р̲а̲б̲о̲т̲у̲</string>
+    <string name="sixthView">Например: мы к̲р̲а̲с̲и̲в̲ы̲е̲</string>
+    <string name="thirdText">Введите существительное</string>
+    <string name="fourthText">Введите существительное состояния</string>
+    <string name="fifthText">Введите существительное</string>
+    <string name="sixthText">Введите прилагательное</string>
+    <string name="createStory">Создать историю</string>
 </resources>
