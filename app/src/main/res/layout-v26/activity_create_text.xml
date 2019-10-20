@@ -7,11 +7,6 @@
     android:background="@color/colorMain"
     tools:context=".createText">
 
-    <FrameLayout
-        android:id="@+id/storyfragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></FrameLayout>
-
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="330dp"
@@ -125,10 +120,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:onClick="onButtonClick"
         android:text="@string/createStory"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <LinearLayout
+        android:id="@+id/conteiner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
