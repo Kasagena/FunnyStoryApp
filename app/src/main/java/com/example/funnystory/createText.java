@@ -1,12 +1,13 @@
 package com.example.funnystory;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentManager;
+
 import androidx.fragment.app.FragmentTransaction;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+import android.widget.LinearLayout;
 
 
 public class createText extends AppCompatActivity {
@@ -16,30 +17,14 @@ public class createText extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_text);
-        addListenerOnButton();
     }
-
-
-
-    public void addListenerOnButton () {
-
-        Button createFragmentButton = findViewById(R.id.createStory_button);
-        createFragmentButton.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-//                        final EditText ob1 = findViewById(R.id.editText);
-//                        String text1 = ob1.getText().toString();
-//                        TextView storyText = findViewById(R.id.textStory);
-//                        storyText.setText(text1);
-
-                        storyText fragment111 = new storyText();
-                        FragmentManager fm = getSupportFragmentManager();
-                        FragmentTransaction ft = fm.beginTransaction();
-                        ft.add(R.id.fragmentEbat, fragment111);
-                        ft.commit();
-                    }
-                }
-        );
+    
+    public void onButtonClick(View v) {
+        LinearLayout ln = findViewById(R.id.linearLayout2);
+        ln.setVisibility(View.INVISIBLE);
+        storyText sT = new storyText();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.add(R.id.fragment_story_text, sT);
+        ft.commit();
     }
 }
